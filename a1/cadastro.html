@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+      <header data-bs-theme="dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Pets Word</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="paginicial.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="produtos.html">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cadastro.html">Cadastre-se</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="carrinho.html">Carrinho</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <br>
+  <br>
+  <br>
+    <div id="cadastro">
+    <h1>Cadastro</h1>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+        <br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <label for="cep">CEP:</label>
+        <input type="number" id="cep" name="cep">
+        <br>
+        <label for="rua">Rua:</label>
+        <input type="text" name="rua" id="rua">
+        <br>
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro" name="bairro">
+        <br>
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade">
+        <br>
+        <label for="telefone">Telefone:</label>
+        <input type="number" placeholder="(xx) xxxxx-xxxx" id="telefone" name="telefone">
+        <br>
+        <label for="cpf">CPF:</label>
+        <input type="number" id="cpf" name="cpf">
+        <br>
+        <label for="senha">Senha</label>  
+        <input type="password">
+        <br>
+        <a href="paginicial.html" class="btn btn-primary">Enviar</a>
+        <br>
+    </form>
+    </div>
+</body>
+</html>

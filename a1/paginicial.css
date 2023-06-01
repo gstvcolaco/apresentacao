@@ -1,0 +1,60 @@
+body {
+  background-color: #ccccccc5;
+}
+
+#cabesalho {
+  background-position: center;
+  background-size: cover;
+  height: 80px;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+}
+                     
+span {
+    padding: 10px;
+    margin: 30px;
+  }
+
+#produtos {
+ background-color: #252323d5;
+  background-position: center;
+  border-radius: 10px;
+  border: 1px ;
+  display: inline-block;
+  margin-left: 100px;
+}
+
+figure {
+  display: inline-block;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+}
+figcaption {
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+img {
+  padding-left: 20px;
+}
+
+#logo {
+  border-radius: 0px;
+  margin-left: 550px;
+}
+
+h1 {
+  font-family: "Times New Roman";
+  text-align: center;
+  color: #ff0000;
+  background-color: #ffffff63;
+  border-radius: 2px;
+}
+
+footer {
+  background-color: #252323d5;
+  text-align: center;
+  margin-top: 70px;
+}
